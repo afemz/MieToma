@@ -4,24 +4,24 @@
 import time
 import sys
 
-sys.path.append(r"D:\Side Project\mietoma\Py\LIBRARY")
+path = "D:\Side Project\mietoma\Py\LIBRARY"
+
+sys.path.append(path)
+
 
 from LIBRARY.PUMP_KETCHUP import PUMP_KETCHUP_FULL_ROTATION  # Buat manggil fungsi
 from LIBRARY.PUMP_RESOLUTION_ROTATION import FULL_RESOLUTION  # Buat manggil class
 
-while True:
-    count = 0
-    count += 1
-    # PUMP_KETCHUP_FULL_ROTATION()
-    """
-    # Buat declare class
-    FR = FULL_RESOLUTION()
-    full_res = FR.FULL
-    print(full_res)
 
-    """
+PUMP_KETCHUP_FULL_ROTATION()
 
-    # print("ini count" + count)
+# print("ini count" + count)
 
-    if count == 2:
-        break
+
+"""
+# Buat declare class
+FR = FULL_RESOLUTION()
+full_res = FR.FULL
+print(full_res)
+
+"""
