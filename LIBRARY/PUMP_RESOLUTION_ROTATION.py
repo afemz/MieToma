@@ -1,3 +1,4 @@
+## RESOLUTION OF THE PUMP AND HOW MUCH THE PUMP TURNS.
 class FULL_RESOLUTION:
     FULL = 200
     THREE_QUARTER = 150
@@ -19,6 +20,7 @@ class ONE_SIXTEENTH_RESOLUTION:
     QUARTER = 800
 
     """
+    IGNORE|||||
 class person:
     def __init__(self, name, age, gender):
         self.name = name
