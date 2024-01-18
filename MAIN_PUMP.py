@@ -1,0 +1,30 @@
+import time
+import sys
+
+path = "D:\Side Project\mietoma\Py\LIBRARY"  # Determine system path
+
+sys.path.append(path)
+
+from LIBRARY.PUMP_KETCHUP import (
+    PUMP_KETCHUP_FULL_ROTATION,
+    PUMP_KETCHUP_HALF,
+)  # TO CALL FUNCTION FROM THE LIBRARY
+from LIBRARY.PUMP_RESOLUTION_ROTATION import (
+    FULL_RESOLUTION,
+)  # INCASE IF NEEDS TO CALL AN ATTRIBUTE FROM CLASS
+from PUMP_ROTATION import PUMP_KETCHUP
+
+# PUMP_KETCHUP_FULL_ROTATION() \\ FULL ONE ROTATION OF PUMP
+# PUMP_KETCHUP_HALF() \\ HALF ROTATION OF PUMP
+
+# Run the function X times using a loop
+for i in range(PUMP_KETCHUP):
+    PUMP_KETCHUP_FULL_ROTATION()  # ONLY NEED TO PUT ONE FUNCTION
+
+
+"""
+# EXAMPLE OF DECLARING AND USING AN ATTRIBUTE FROM CLASS
+FR = FULL_RESOLUTION()
+full_res = FR.FULL
+print(full_res)
+"""
